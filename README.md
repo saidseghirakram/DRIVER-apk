@@ -1,2 +1,6 @@
 ﻿# DRIVER-apk
-![Image 1](./screenshots/onboarding/logo.png) ![Image 2](./screenshots/onboarding/logo.png) ![Image 3](./screenshots/onboarding/logo.png)
+<p float="left">
+  <img src="./screenshots/onboarding/logo.png" width="100" height="100" />
+  <img src="./screenshots/onboarding/logo.png" width="100" height="100" />
+  <img src="./screenshots/onboarding/logo.png" width="100" height="100" />
+</p>
