@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6474a97239dd23f07f778994"
+  },
+  "userName": "Amine",
+  "email": "Amine@gmail.com",
+  "password": "$2b$10$Av4QcwgeTppujgD.GNFpIuJVjtL3K8R2pcnM6CLSvkBx67YLLkmqS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647b13326675a132f6c3efc4"
+  },
+  "userName": "kda",
+  "email": "e@e",
+  "password": "$2b$10$Hjji0/gjPK.Q02VtCf9D1u8aUBi89mUwTmFUsDAJgioOYoZ9GMFEa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647b4e984ede9a337cc43c31"
+  },
+  "userName": "Akram",
+  "email": "Akram@gmail.com",
+  "password": "$2b$10$9nKLWq7F52sWjoh.LmHVz.p/IW/rEo4HQslHFd7HtIDy/8xRFTpCW",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647b84639e7d4dafc711627e"
+  },
+  "userName": "Mourad",
+  "email": "Mourad@gmail.com",
+  "password": "$2b$10$5rPiYs1fPTbI7l1PifHLEuLC7yC6mD3JMxMPP1DpMXH1f4W81kxbS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647c8cfc0df1ea5ea8a7ad9d"
+  },
+  "userName": "Hatem",
+  "email": "Hatem3benilles@gmail.com",
+  "password": "$2b$10$hgZdkM6/6Pq8Luk3Y1YdAuyeOMHj84QKOpttWdIYV2ai67VUfRqo2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6484470837e32f056523a3eb"
+  },
+  "userName": "Zvakhen",
+  "email": "akramsaidseghir26@gmail.com",
+  "password": "$2b$10$t4YseceVKjrBmFPZlcKWG.9u6GkDZ1vxZp2JWC/mepjO.MRzP8KJu",
+  "__v": 0
+}]

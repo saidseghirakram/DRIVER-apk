@@ -1,0 +1,104 @@
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createStackNavigator } from "@react-navigation/stack";
+import Map from "./src/Map";
+import Account from "./src/Account";
+import Home from "./src/Home";
+import CustomBottomBar from "./src/Bar";
+import Deppanage from "./src/services_screen/Deppanage";
+import Hotel from "./src/services_screen/Hotel";
+import Resturant from "./src/services_screen/Resturant";
+import Pieces from "./src/services_screen/Pieces";
+import Mecanicien from "./src/services_screen/Mecanicien";
+import Parking from "./src/services_screen/Parking";
+import Edit from "./src/Edit_Profile";
+
+const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
+
+function MyTabs() {
+  return (
+    <Tab.Navigator
+     /*  tabBarOptions={{
+        activeTintColor: "#e91e63",
+        labelStyle: { fontSize: 12 },
+        style: { backgroundColor: "blue" },
+
+      }} */
+      initialRouteName="Home"
+      headerShown={false}
+    >
+      <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Map" component={Map} />
+      <Tab.Screen name="profile" component={Account} />
+    </Tab.Navigator>
+  );
+}
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen name="Map" component={Map} />
+        <Stack.Screen
+          name="profile"
+          component={Account} /* options={{ headerShown: false }} */
+        />
+        <Stack.Screen
+          name="Parking"
+          component={Parking} /* options={{ headerShown: false }} */
+        />
+        <Stack.Screen
+          name="Deppanage"
+          component={Deppanage}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Hotel"
+          component={Hotel}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Resturant"
+          component={Resturant}
+          options={{ headerShown: true }}
+        />
+        <Stack.Screen
+          name="Pieces"
+          component={Pieces}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Mecanicien"
+          component={Mecanicien}
+          options={{ headerShown: true }}
+        />
+        <Stack.Screen name="Edit_Profile" component={Edit} />
+        <Stack.Screen name="MyTabs" component={MyTabs} />
+      </Stack.Navigator>
+     {/*  <CustomBottomBar /> */}
+    </NavigationContainer>
+  );
+}
+
+/* const styles = StyleSheet.create({
+  all: { 
+    height: 50,
+    width: '100%',
+    backgroundColor: '#B7B7B7',
+    position: 'absolute',
+    bottom: 0,
+    flexDirection: 'row',
+    color:'#fff',
+    display:'flex',
+    justifyContent:'space-around',
+    alignItems:'center'
+  },
+
+}); */
